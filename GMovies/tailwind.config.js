@@ -1,8 +1,8 @@
 module.exports = {
   content: [
-    "./App.{js,jsx,ts,tsx}",
-    "./screens/**/*.{js,jsx,ts,tsx}",
-    "./components/**/*.{js,jsx,ts,tsx}"
+    "./App.{js,jsx,ts,txs}",
+    "./screens/**/*.{js,jsx,ts,txs}",
+    "./components/**/*.{js,jsx,ts,txs}"
   ],
   theme: {
     extend: {},

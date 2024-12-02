@@ -112,11 +112,13 @@ export default function MovieScreen() {
                   {movie?.overview}
                 </Text>
 
-               {/* Elenco */}
-                {cast.length > 0 && <Cast navigation={navigation} cast={cast} />}
+                
+      {/* Elenco */}
+      {cast.length > 0 && <Cast navigation={navigation} cast={cast} />}
 
-               {/* Filmes Similares */}
-                {similarMovies.length > 0 && <MovieList title="Filmes Similares" hideSeeAll={true} data={similarMovies} />}
+{/* Filmes Similares */}
+{similarMovies.length > 0 && <MovieList title="Filmes Similares" hideSeeAll={true} data={similarMovies} />}
+
               </View>
             </>
           )
@@ -126,4 +128,5 @@ export default function MovieScreen() {
 
     </ScrollView>
   )
+
 }

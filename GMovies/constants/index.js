@@ -1,4 +1,4 @@
-export const apiKey = '870e1157e04140e435a7c31e36e7f7fd';
+export const apiKey = '72c4a454e25f230b2b6d52ffe12ffea4';
 
 export const moviesData = [
   {
